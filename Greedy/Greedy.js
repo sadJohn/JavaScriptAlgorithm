@@ -23,11 +23,12 @@ function greedy() {
     }
     statesNeeded = difference(statesNeeded, statesCovered);
     finalStation.add(bestStation);
+    stations.delete(bestStation);
   }
 }
 
 greedy();
-console.log(finalStation);
+console.log(stations, finalStation);
 
 //set1 & set2
 function intersect(set1, set2) {
