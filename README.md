@@ -1,2 +1,2 @@
 # JavaScriptAlgorithm
-Simple JavaScript algorithm achievement
+Simple JavaScript algorithm implementation
